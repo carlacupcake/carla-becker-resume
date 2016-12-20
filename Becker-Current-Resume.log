@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 DEC 2016 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 DEC 2016 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -112,25 +112,6 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \colbreak@box=\box52
 \mc@col@check@num=\count99
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 142.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count100
-))
 
 LaTeX Warning: Unused global option(s):
     [9pt].
@@ -185,26 +166,12 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen121
-\scratchbox=\box53
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen122
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks18
-)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 11.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -433,13 +400,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
 [2] (./Becker-Current-Resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1899 strings out of 493089
- 27357 string characters out of 6134842
- 99325 words of memory out of 5000000
- 5415 multiletter control sequences out of 15000+600000
+ 1146 strings out of 493089
+ 17031 string characters out of 6134842
+ 87000 words of memory out of 5000000
+ 4682 multiletter control sequences out of 15000+600000
  4899 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,5n,29p,212b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,4n,29p,207b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
@@ -447,7 +414,7 @@ e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on Becker-Current-Resume.pdf (2 pages, 83516 bytes).
+Output written on Becker-Current-Resume.pdf (2 pages, 83459 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
