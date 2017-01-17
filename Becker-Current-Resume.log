@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 JAN 2017 23:31
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 JAN 2017 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,7 +840,7 @@ Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\EU1/lmr/bx/n/9 RESEARCH
+[]|\EU1/lmr/bx/n/9 PROJECT
  []
 
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
