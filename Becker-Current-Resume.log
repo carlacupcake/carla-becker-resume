@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 JAN 2017 23:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 JAN 2017 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -839,7 +839,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\EU1/lmr/bx/n/9 PROJECT
  []
 
@@ -863,12 +863,12 @@ Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
 Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
 Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
 
-Overfull \hbox (3.87845pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.87845pt too wide) in paragraph at lines 242--242
 []|\EU1/lmr/bx/n/9 PUBLICATIONS| 
  []
 
-./Becker-Current-Resume.tex:231: Undefined control sequence.
-l.231 \BulletItemBullet
+./Becker-Current-Resume.tex:244: Undefined control sequence.
+l.244 \BulletItemBullet
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -877,8 +877,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
-./Becker-Current-Resume.tex:240: Undefined control sequence.
-l.240 \BulletItemBullet
+./Becker-Current-Resume.tex:253: Undefined control sequence.
+l.253 \BulletItemBullet
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -887,8 +887,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
-./Becker-Current-Resume.tex:249: Undefined control sequence.
-l.249 \BulletItemBullet
+./Becker-Current-Resume.tex:262: Undefined control sequence.
+l.262 \BulletItemBullet
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -898,16 +898,16 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\EU1/lmr/bx/n/9 RELEVANT
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 266.
+(Font)              <7> on input line 279.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 266.
+(Font)              <5> on input line 279.
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\EU1/lmr/bx/n/9 WORK
  []
 
@@ -921,41 +921,41 @@ Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 Missing character: There is no ■ in font [lmroman7-regular]:mapping=tex-text!
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
 []|\EU1/lmr/bx/n/9 RELEVANT
  []
 
 
-Overfull \hbox (1.73645pt too wide) in paragraph at lines 331--331
+Overfull \hbox (1.73645pt too wide) in paragraph at lines 344--344
 \EU1/lmr/bx/n/9 COURSEWORK| 
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 333--343
+Underfull \hbox (badness 3907) in paragraph at lines 346--356
 \EU1/lmr/m/n/10 Laboratory, Quantum Physics (Quantum Mechanics I), Modern Physi
 cs Laboratory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--366
+Underfull \hbox (badness 10000) in paragraph at lines 372--379
 []|\EU1/lmr/bx/n/10 Chemistry: \EU1/lmr/m/n/10 Chemical Analysis and Laboratory
 , Group Theory/Quantum
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 359--366
+Underfull \hbox (badness 6944) in paragraph at lines 372--379
 \EU1/lmr/m/n/10 Chemistry/Spectroscopy, Carbons (Organic I), Physical Chemistry
  and Laboratory,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 378--385
+Underfull \hbox (badness 1057) in paragraph at lines 391--398
 \EU1/lmr/m/n/10 Biochemistry and Laboratory, Digital Electronics, Engineering M
 athematics, Electric &
  []
 
 
-Overfull \hbox (12.73445pt too wide) in paragraph at lines 393--393
+Overfull \hbox (12.73445pt too wide) in paragraph at lines 406--406
 []|\EU1/lmr/bx/n/9 PRESENTATIONS| 
  []
 
@@ -971,18 +971,18 @@ Missing character: There is no ● in font [lmroman6-regular]:mapping=tex-text!
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 439.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 439.
  (./Becker-Current-Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 426.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 426.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 439.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 439.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 439.
  ) 
 Here is how much of TeX's memory you used:
  22272 strings out of 493706
  411579 string characters out of 6145769
- 489784 words of memory out of 5000000
+ 488784 words of memory out of 5000000
  25445 multiletter control sequences out of 15000+600000
  4120 words of font info for 30 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
