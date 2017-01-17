@@ -1,265 +1,434 @@
-\documentclass[9pt]{article}
-\usepackage{geometry, enumitem, multicol}
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
 
-\geometry{margin=0.75in}
-\linespread{1.3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+\usepackage{enumitem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TYPESETTING OPTIONS.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Carla J. Becker}
+\newcommand{\CVTitle}{Carla Becker's CV}
+\newcommand{\CVWebpage}{}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-% Name and Contact Information
-{\centering \Large \bf Carla Becker \\}
-{\centering B.S. Physics, B.S. Chemistry $\vert \vert$ carla.joy.becker@gmail.com $\vert \vert$ (256) 348-6748 \\}
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
 
-% Education
-\noindent
-{\bf Education \\}
-Harvey Mudd College (HMC), Claremont, CA; B.S. Physics, B.S. Chemistry \--- Expected May 2018 \\
-Randolph High School, Huntsville, AL; Valedictorian \--- May 2014 
-\vspace{3mm}
+\title{\CVAuthor}
 
-\linespread{1}
+\begin{subtitle}
+carla.joy.becker@gmail.com
+\\
+(256)\,348-6748
+\end{subtitle}
+\vspace{2mm}
+\hrule
+\begin{body}
 
-\iffalse
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     TEMPORARY OBJECTIVE SECTION      %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent
-{\bf Objective \\}
-To find a summer internship at the Jet Propulsion Laboratory (JPL) for 2017 in an area related to any of the following: condensed matter physics, nanoelectronics, optoelectronics, micro/nano electromechanical systems (MEMs/NEMs), or computational fluid dynamics.
-\vspace{3mm}
-\fi
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
 
-% Publications
-\noindent
-{\bf Publications \\}
-\vspace{-8mm}
-\begin{itemize}[leftmargin=3.75mm]
-	\setlength{\itemsep}{0pt}
-    \setlength{\parskip}{0pt}
-    \setlength{\parsep}{0pt}
-\item``The genome-wide transcriptional response to varying RpoS levels in Escherichia coli K-12," \\ Journal of Bacteriology \--- January 2017
-\item ``Internal Optical Spectroscopic Real-Time Diagnosis Technique,"  Aviation and Missile Research Development and Engineering Center (AMRDEC) \--- September 2013
-\item ``Assessment of Acoustic and Thermal Sensors for Monitoring Gun Barrel Degradation," \\ AMRDEC \--- July 2013
-\end{itemize}
+\section
+{Education}
+{Education}
+{PDF:Education}
 
-% Project Experience
-\noindent
-{\bf Project Experience \\}
-{\it Researcher, Harvey Mudd College Department of Chemistry \--- January 2016 - present}
-	\vspace{-2.5mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Performed single-molecule super-resolution fluorescence 			microscopy with the goal of modeling the aggregation of the mis-folded protein involved in	Huntington's disease
-		\item Helped build microscope and develop imaging process for 			characterizing aggregation
-	\end{itemize}
-\vspace{-1mm}
-{\it Student Body Senate Chair \--- March 2016 - present}
-	\vspace{-2.5mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Lead twice-weekly meetings of 30-50 people
-		\item Regularly presented to faculty, administrators, and board 		of trustees
-		\item Envisioned, organized and executed initiatives, events, 			and	projects for the student body's benefit
-	\end{itemize}
-\vspace{-1mm}
-{\it Researcher, Harvey Mudd College Department of Biology \--- January 2015 - present}
-	\vspace{-2.5mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Coded and determined bioinformatic methods used to 				illuminate testable hypotheses in the  lab
-		\item Used standard molecular and microbiological techniques to 		investigate transcriptional regulation related to the stress 			response in {\it E. coli} 
-	\end{itemize}
-\vspace{-1mm}
-{\it Army's Science and Engineering Apprenticeship Program (SEAP), AMRDEC  \--- 2011 - 2014}
-	\vspace{-2.5mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Gained experience with fiber optics, acoustic sensors, 			foams, and equipment/instruments associated with these 					technologies
-		\item Developed educational outreach materials for grades K-8 
-	\end{itemize}
+\href{https://www.hmc.edu/}
+{\textbf{Harvey Mudd College (HMC)}},
+Claremont, California
+\hfill
+Expected May 2018
 
-%---------------------Begin Columns---------------------%
-\begin{multicols*}{2}
+\GapNoBreak
+\BulletItem
+B.S. Physics, B.S. Chemistry
 
-% Volunteer Experience
-\noindent
-{\bf Volunteer Experience \\}
-\vspace{-8mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Student Body Senate Chair, HMC
-		\item HMC Honor Board
-		\item Student Philanthropy
-		\item United States Space and Rocket Center (USSRC)
-	\end{itemize}
+\Gap
+{\textbf{Randolph School}},
+Huntsville, AL
+\hfill
+May 2014
 
-% Work Experience
-\noindent
-{\bf Work Experience \\}
-\vspace{-8mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Researcher, HMC (2015 - present)
-		\item Lab Assistant, HMC (2014 - present)
-		\item Tour Guide, HMC (2015 - present)
-		\item Grader, HMC Dept. of Chemistry (2015, 2016)
-	\end{itemize}
-	
-\vfill
-\columnbreak
+\GapNoBreak
+\BulletItem
+Valedictorian
 
-% Awards and Honor Societies
-\noindent
-{\bf Awards and Honor Societies \\}
-\vspace{-8mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item 2016 Alabama Alumnus of the Year, Future City Competition
-		\item Bausch and Lomb Honorary Science Award (2014)
-		\item Wernher von Braun Award for academic excellence 
-			and integrity (2014)
-		\item 1st Place, SEAP Technical Paper Competition (2012, 2013)
-	\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Other Skills
-\noindent
-{\bf Other Skills \\}
-\vspace{-8mm}
-	\begin{itemize}[leftmargin=3.75mm]
-		\setlength{\itemsep}{0pt}
-    	\setlength{\parskip}{0pt}
-    	\setlength{\parsep}{0pt}
-		\item Python, MATLAB, Mathematica, \LaTeX, Unix
-		\item Sterile laboratory technique, optical table and laser setup (visible wavelengths)
-		%\item Lathe, CNC mill
-	\end{itemize}
+\section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
 
-\end{multicols*}
-%---------------------End Columns---------------------%
-%
-%
+% Spencer Lab
+{\textbf{Engineering Researcher}}
 
-\newpage
+\GapNoBreak
+\BulletItem
+HMC Department of Engineering
+\hfill
+\DatestampYMD{2017}{01}{18} --
+present
+\begin{detail}
+\SubBulletItem
+Supervisor:
+Prof. Matthew Spencer
+\SubBulletItemBullet
+Developed simulations of tunnel field effect transistors (TFETs) to determine their physical plausibility
+\end{detail}
 
-%
-%
+\BigGap
 
-% Technical Course List
-\noindent
-{\bf Technical Course List \\}
-\vspace{-7mm}
+% Duim Lab
+{\textbf{Howard Hughes Medical Institute Student Fellow}}
 
-%---------------------Begin Columns---------------------%
-\begin{multicols}{2}
-\noindent
-{\it Physics} \\
-\setlength{\parindent}{5mm}
-\setlength{\parskip}{-5.5mm}
-\par Quantum Mechanics II \\
-\par Statistical Mechanics and Thermodynamics \\
-\par Theoretical Mechanics \\
-\par Electronics Laboratory \\
-\par Quantum Physics (Quantum Mechanics I) \\
-\par Modern Physics Laboratory \\
-\par Electromagnetic Theory and Optics \\
-\par Mechanics and Wave Motion \\
-\par Special Relativity \\
-\par Intro Physics Laboratory \\
+\GapNoBreak
+\BulletItem
+HMC Department of Chemistry
+\hfill
+\DatestampYMD{2016}{01}{18} --
+present
+\begin{detail}
+\SubBulletItem
+Supervisor:
+Prof. Whitney C. Duim
+\SubBulletItemBullet
+Performed single-molecule super-resolution fluorescence microscopy with the goal of modeling the aggregation of the mis-folded protein involved in	Huntington's disease
+\SubBulletItemBullet
+Helped build microscope and develop imaging process for 			characterizing aggregation
+\end{detail}
 
-\vspace{3mm}
-\noindent
-{\it Mathematics} \\
-\par Fourier Series and Boundary Value Problems \\
-\par Linear Algebra/ Differential Equations II \\
-\par Multivariable Calculus \\
-\par Differential Equations \\
-\par Linear Algebra \\
-\par Probability and Statistics \\
-\par Calculus \\
+\BigGap
 
-\vfill \columnbreak
-\vspace{3mm}
-\noindent
-{\it Biology} \\
-\par Molecular Genetics \\
+% ASHMC
+{\textbf{Student Body Senate Chair}}
 
-\vspace{3mm}
-\noindent
-{\it Chemistry} \\
-\par Adv. Analytical Chemistry and Laboratory \\
-\par Biochemistry and Laboratory \\
-\par Chemical Analysis and Laboratory \\
-\par Group Thry., Quant. Chem., and Spectroscopy \\
-\par Carbons (Organic I) \\
-\par Physical Chemistry and Laboratory \\ 
-\par Energetics, Dynamics, and Structure (Intro Chem.) \\
-\par Intro Chemistry Laboratory \\
+\GapNoBreak
+\BulletItem
+Associated Students of Harvey Mudd College (ASHMC)
+\hfill
+\DatestampYMD{2016}{03}{18} --
+present
+\begin{detail}
+\SubBulletItemBullet
+Lead twice-weekly meetings of 30-50 people
+\SubBulletItemBullet
+Regularly presented to faculty, administrators, and board of trustees
+\SubBulletItemBullet
+Envisioned, organized and executed initiatives, events, and projects for the student body's benefit
+\end{detail}
 
-\vspace{3mm}
-\noindent
-{\it Computer Science} \\
-\par Robotics Laboratory \\
-\par Principles of Computer Science \\
-\par Introductions to Biology and Computer Science \\
+\BigGap
 
-\vspace{3mm}
-\noindent
-{\it Engineering} \\
-\par Introduction to Signals and Systems \\
-\par Digital Electronics \\
-\par Engineering Mathematics \\
-\par Electric \& Magnetic Circuits/Devices \\
+% Stoebel Lab
+{\textbf{Howard Hughes Medical Institute Student Fellow}}
 
-\end{multicols}
-%---------------------End Columns---------------------%
+\GapNoBreak
+\BulletItem
+HMC Department of Biology
+\hfill
+\DatestampYMD{2015}{01}{18} --
+\DatestampYMD{2015}{12}{18}
+\begin{detail}
+\SubBulletItem
+Supervisors:
+Prof. Dan Stoebel, Prof. Eliot Bush
+\SubBulletItemBullet
+Coded and determined bioinformatic methods used to illuminate testable hypotheses in the  lab
+\SubBulletItemBullet
+Used standard molecular and microbiological techniques to investigate transcriptional regulation related to the stress response in {\it E. coli}
+\end{detail}
 
-\iffalse
-% Other Courses
-\noindent
-{\bf Other Courses \\}
-\setlength{\parindent}{5mm}
-\setlength{\parskip}{-5.5mm}
-\par Financial Economics \\
-\par African Aesthetics \\
-\par Independent Study in Leadership \\
-\par Parties and Campaigns \\
-\par Critical Inquiry: Socratic Dialogues \\
-\par Intermediate Spanish \\
-\par Intermediate Classical Ballet \\
-\par Introduction to Academic Writing \\
-\fi
+\BigGap
 
+% AMRDEC
+{\textbf{Science and Engineering Apprenticeship Program (SEAP) Apprentice}}
+
+\GapNoBreak
+\BulletItem
+Aviation and Missile Research, Development, and Engineering Center \hfill
+\DatestampYMD{2011}{05}{18} --
+\DatestampYMD{2014}{09}{18}
+\begin{detail}
+\SubBulletItem
+Supervisors:
+Dr. Paul Ruffin, Eugene Edwards, Gayla McMichael
+\SubBulletItemBullet
+Gained experience with fiber optics, acoustic sensors, foams, and equipment/instruments associated with these technologies
+\SubBulletItemBullet
+Developed educational outreach materials for grades K-8
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+\BulletItemBullet
+``The genome-wide transcriptional response to varying RpoS levels in Escherichia coli K-12"
+\begin{detail}
+\SubBulletItem
+Journal of Bacteriology, under Prof. Dan Stoebel and Eliot Bush, Jan 2017
+\end{detail}
+
+\Gap
+
+\BulletItemBullet
+``Assessment of acoustic and thermal sensors for monitoring gun barrel degradation"
+\begin{detail}
+\SubBulletItem
+AMRDEC, under Eugene Edwards, Sep 2013
+\end{detail}
+
+\Gap
+
+\BulletItemBullet
+``Internal optical spectroscopic real-time diagnosis technique"
+\begin{detail}
+\SubBulletItem
+AMRDEC, under Dr. Paul Ruffin, Sep 2012
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%
+%% RELEVANT SKILLS %%
+%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Relevant Skills}
+{Relevant Skills}
+{PDF:RelevantSkills}
+
+{\textbf{Programming Languages:}}
+MATLAB, Python, Mathematica, Verilog-A, \LaTeX, Unix.
+
+\Gap
+
+{\textbf{Laboratory Skills:}}
+Sterile technique, NMR, GCMS, optical table and laser setup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Work Experience}
+{Work Experience}
+{PDF:WorkExperience}
+
+{\textbf{Harvey Mudd College}}
+
+\GapNoBreak
+\BulletItem
+Lab Assistant, Department of Biology \hfill
+\DatestampYMD{2011}{05}{18} --
+\DatestampYMD{2014}{09}{18}
+\BulletItem
+Tour Guide, Office of Admissions and Financial Aid \hfill
+\DatestampYMD{2015}{01}{18} --
+present
+\BulletItem
+Tutor, Department of Biology \hfill
+\DatestampYMD{2016}{01}{18} --
+\DatestampYMD{2016}{12}{18}
+\BulletItem
+Grader, Department of Chemistry \hfill
+\DatestampYMD{2015}{09}{18} --
+\DatestampYMD{2016}{05}{18}
+\BulletItem
+Caller, Office of Annual Giving \hfill
+\DatestampYMD{2014}{10}{18} --
+\DatestampYMD{2015}{12}{18}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS AND HONORS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Awards and Honors}
+{Awards and Honors}
+{PDF:Awards and Honors}
+
+\BulletItem
+2016 Alabama Alumnus of the Year, Future City Competition 
+\BulletItem
+Bausch and Lomb Honorary Science Award (2014) 
+\BulletItem
+Wernher von Braun Award for academic excellence and integrity (2014)
+\BulletItem 
+1st Place, SEAP Technical Paper Competition (2012, 2013)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RELEVANT COURSEWORK %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Relevant Coursework}
+{Relevant Coursework}
+{PDF:Relevant Coursework}
+
+{\textbf{Physics:}}
+Statistical Mechanics and Thermodynamics,
+Theoretical Mechanics,
+Electronics Laboratory,
+Quantum Physics (Quantum Mechanics I),
+Modern Physics Laboratory,
+Electromagnetic Theory and Optics,
+Mechanics and Wave Motion,
+Special Relativity,
+Intro Physics Laboratory.
+
+\Gap
+{\textbf{Mathematics:}}
+Fourier Series and Boundary Value Problems,
+Linear Algebra/ Differential Equations II,
+Multivariable Calculus,
+Differential Equations,
+Linear Algebra,
+Probability and Statistics,
+Calculus.
+
+\Gap
+{\textbf{Engineering:}}
+Introduction to Signals and Systems.
+
+\Gap
+{\textbf{Chemistry:}}
+Chemical Analysis and Laboratory,
+Group Theory/Quantum Chemistry/Spectroscopy,
+Carbons (Organic I),
+Physical Chemistry and Laboratory,
+Energetics/Dynamics/Structure,
+Intro Chemistry Laboratory \\
+
+\Gap
+{\textbf{Computer Science:}}
+Robotics Laboratory,
+Principles of Computer Science,
+Introductions to Biology and Computer Science.
+
+\Gap
+{\textbf{Biology:}}
+Molecular Genetics.
+
+\Gap
+{\textbf{In Progress/Planned:}}
+Quantum Mechanics II,
+Adv. Analytical Chemistry and Laboratory,
+Biochemistry and Laboratory,
+Digital Electronics,
+Engineering Mathematics,
+Electric \& Magnetic Circuits/Devices.
+
+%%%%%%%%%%%%%%%%%%%
+%% PRESENTATIONS %%
+%%%%%%%%%%%%%%%%%%%
+
+\section
+{Presentations}
+{Presentations}
+{PDF:Presentations}
+
+\SubBulletItem
+\underline{Carla Becker, Ali Khan, Rebecca Harman}, Rachel Levy, Whitney C. Duim 
+\SubBulletItem
+“Characterizing the Huntingtin Aggregation Pathway via Super-Resolution and Single Molecule Fluorescence Microscopy” presented at:
+\SubBulletItemBullet
+Howard Hughes Medical Institute Poster Session at the Claremont Colleges (Sep 2016)
+\SubBulletItemBullet Conference for Undergraduate Women in Physics Poster Session (Jan 2017)
+\SubBulletItemBullet American Chemical Society, Division of Biological Chemistry Poster Session (Apr 2017).
+
+\Gap
+\SubBulletItem
+\underline{Carla Becker,} Eliot Bush, Dan Stoebel
+\SubBulletItem
+“A Bioinformatics Assessment of Sensitivity Profiles in {\it E. coli}” presented at:
+\SubBulletItemBullet Howard Hughes Medical Institute Poster Session at the Claremont Colleges (Sep 2015) 
+\SubBulletItemBullet Southern California Conference for Undergraduate Research Poster Session (Mar 2016)
+
+\end{body}
+\thispagestyle{empty}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+%\begin{flushright}
+%\UseNoteFont%
+%\vspace*{-.15in}[\textit{\CVNote}]%
+%\hspace{2.0mm}\null
+%\end{flushright}
+
+%\label{LastPage}~
 \end{document}
 
+%Use \Gap \GapNoBreak to insert a small vertical space between items within the same section.
+%Use \BigGap or \BigGapNoBreak to insert a bigger vertical space between items within the same section.
+%The ``NoBreak'' versions prevent page breaking.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%\CodeCommand{DatestampYMD\{YYYY\}\{MM\}\{DD\}},
+%\CodeCommand{DatestampYM\{YYYY\}\{MM\}}, and
+%\CodeCommand{DatestampY\{YYYY\}}
