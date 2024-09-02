@@ -1,0 +1,199 @@
+%------------------------------------------------------------------------------------------------------------------------%
+% Resume in Latex
+% Original Author: Shubhi Rani, MIT
+% Edited by: Carla Becker
+%------------------------------------------------------------------------------------------------------------------------%
+\documentclass[letterpaper,10.8pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\urlstyle{rm}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% FORMATTING
+%------------------------------------------------------------------------------------------------------------------------%
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+ \hypersetup{colorlinks=true, linkcolor=blue, filecolor=blue, citecolor = black, urlcolor=cyan}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.475in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%------------------------------------------------------------------------------------------------------------------------%
+% CUSTOM COMMANDS
+%------------------------------------------------------------------------------------------------------------------------%
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{:#2\vspace{-2pt}}}}
+\newcommand{\resumeItemNoTitle}[2]{\item\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeSubItemNoTitleNoBullet}[2]{\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeItemWithoutTitle}[1]{\item\small{{\vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\  \end{tabular*}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemNoTitle}[2]{\resumeItemNoTitle{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+%------------------------------------------------------------------------------------------------------------------------%
+% HEADING
+%------------------------------------------------------------------------------------------------------------------------%
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\LARGE Carla J. Becker}} & Full resume available at: \includegraphics[width=1cm]{resume-QR-code.png} \end{tabular*} \\
+Linkedin: \href{https://www.linkedin.com/in/carla-becker}{www.linkedin.com/in/carla-becker}, Email: \href{mailto:carlabecker@berkeley.edu}{carlabecker@berkeley.edu}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% SKILLS AND PROFICIENCIES
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Skills \& Proficiencies}
+{Program management, early-stage project ramping, product engineering, process development} |
+{Machine-learning, optimization, numerical methods, controls engineering} |
+{Bring-up, operation, and maintenance of manufacturing machinery, analytical instrumentation, and electronic equipment} |
+{Python, MATLAB, C, LaTeX, Javascript, Unix, Bash}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% EXPERIENCE
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Research \& Industry Experience}
+\resumeSubHeadingListStart
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sakuu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Senior Product Engineer}, 
+{Sakuu Corporation} & 
+\textit{\small May 2018 - May 2022} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+%----- Program Management -----%
+{\vspace{-2pt}\item\small{\textbf{Program Management} | Single-handedly managed, envisioned, and guided development of a browser-based integrated data management, machine learning, and advanced battery analytics system. Project had a \$300,000 budget and lasted 1.5 years. | Drafted statements of work and consulting agreements. Developed all company safety procedures and SOPs. \vspace{-2pt}}}
+
+%----- Product Engineering -----%
+{\vspace{-2pt}\item\small{\textbf{Product Engineering} | Experience with powder milling, coin/pouch cell assembly, tape casting, slurry preparation, battery assembly and test, and powder bed 3D printing. | Design of experiment, process development, contract manufacturing. | Point-of-contact for fixing/repairing malfunctioning analytical instrumentation. \vspace{-2pt}}} 
+
+%----- People Management -----%
+{\vspace{-2pt}\item\small{\textbf{People Management} | Daily managed a 10-person team of technicians and associate engineers on the R\&D lab floor. | Managed 4 different interns to complete their own independent projects. \vspace{-2pt}}} 
+
+%----- Early-stage Project Ramping -----%
+{\vspace{-2pt}\item\small{\textbf{Early-stage Project Ramping} | Developed strategy to grow a battery modeling and simulation business unit. Interviewed potential candidates and evaluated commercial finite element software. Defined 5-year scope, objectives, and success metrics. | Onboarded and trained all non-executive, technical staff on techniques, procedures, machinery, instrumentation, and theory until the startup headcount reached 50. \vspace{-2pt}}}
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Intel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Business Operations Management Intern}, 
+{Intel Corporation} & 
+\textit{\small June 2022 - May 2023} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{Streamlined hiring and finance operations within the Developer Software Engineering group by automating \\
+1) headcount reporting, 2) tracking of organization wide OKRs from JIRA data, and 3) generation of new job requisitions using Python Selenium, the PowerBI Javascript API, and Microsoft Power Automate.}
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GSR Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Graduate Student Researcher}, 
+{University of California Berkeley} & 
+\textit{\small May 2022 - Present} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+%----- Materials Project -----%
+{\vspace{-2pt}\item\small{\textbf{Browser App for Composites Discovery, \href{https://next-gen.materialsproject.org/}{The Materials Project}} | Built an app to recommend composite material components based on user-defined properties for an ultimate material. Public GitHub repo \href{https://github.com/carlacupcake/hashin_shtrikman_mp}{here}. | Developed an object-oriented framework in Python which uses, and will be integrated into, the Materials Project API. | Tested a suite of optimization techniques and developed faster versions in C and Cython. \vspace{-2pt}}}
+
+%----- CE 295 OPF -----%
+{\vspace{-2pt}\item\small{\textbf{Comparison of Model Predictive Control and Robust Optimization for the Optimal Power Flow Problem} | Modeled power flow in an adapted IEEE 39-bus test system with wind, solar, battery storage, and diesel generation, minimizing the total amount of diesel used over a time horizon. | Used real generation/consumption data. Public GitHub repo \href{https://github.com/carlacupcake/CE295-OPF}{here}. \vspace{-2pt}}}
+
+%----- AIFS -----%
+{\vspace{-2pt}\item\small{\textbf{Fellow at the AI Institute for Next-Generation Food Systems} | Developed an extensible coupled, nonlinear ODE model for growth of a general crop. Public GitHub repo \href{https://github.com/carlacupcake/smartfarm}{here}. | Developed a ray tracing solver for a digital twin of an indoor farm, optimizing LED configuration for maximum light absorption. Resulted in \href{https://doi.org/10.1007/s00466-023-02421-9}{publication}. Public GitHub repo \href{https://github.com/emremengi/INDOOR_FARMING_PAPER}{here}. \vspace{-2pt}}} 
+
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other UC Berkeley Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Student Assistant, College of Engineering}, 
+{University of California Berkeley} & 
+\textit{\small May 2022 - Present} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+%----- ME C201 GSI -----%
+{\vspace{-2pt}\item\small{\textbf{Outstanding Graduate Student Instructor 2024,} Modeling and Simulation of Advanced Manufacturing Processes. \vspace{-2pt}}}
+
+%----- Capstone Connect -----%
+{\vspace{-2pt}\item\small{\textbf{Backend Software Development, Capstone Connect} | Automated optimal matching based on mutual ranking between industry sponsors and Masters of Engineering students, who must complete a capstone project to graduate, and automated all document production and email communication. | All work done in Google AppScript (Javascript).\vspace{-2pt}}}
+
+%----- DEWA -----%
+{\vspace{-2pt}\item\small{\textbf{Head Student Staff Assistant, \href{https://engineering.berkeley.edu/news/2019/05/dubai-electricity-and-water-authority-partnership-advances-future-energy-educational-program/}{Dubai Electricity and Water Authority}} (DEWA) | Administered the engineering certificate program for students at DEWA through the UC Berkeley Extension. Organized student enrollment, grading, forums, and course resources. | Managed many stakeholders: the program manager and program director from DEWA, the UC Berkeley registrar, staff from the UC Berkeley Extension office, professors, and teaching assistants. \vspace{-2pt}}}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% EDUCATION
+%------------------------------------------------------------------------------------------------------------------------%
+\vspace{4pt}
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\section{Education}
+\resumeSubHeadingListStart
+
+{\vspace{-2pt}\item \textbf{University of California Berkeley}} \\
+\textit{\small Ph.D., Mechanical Engineering; Expected: May 2026} \\ 
+\textit{\small M.S., Materials Science \& Engineering; Earned: May 2022}  
+
+{\vspace{-2pt}\item \textbf{Harvey Mudd College}} \\
+\textit{\small B.S. Physics, B.S. Chemistry; Earned: May 2018} 
+
+%------------------------------------------------------------------------------------------------------------------------%
+% RELEVANT COURSEWORK
+%------------------------------------------------------------------------------------------------------------------------%
+\resumeSubHeadingListEnd
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+\section{Relevant \& Planned Graduate Coursework}
+\small{
+Finite Element Method $\cdot$
+Numerical Solutions of ODEs/PDEs $\cdot$ 
+State Estimation and Kalman Filtering  $\cdot$
+Model Predictive Control  $\cdot$
+Data Science for Energy $\cdot$
+Materials Science of Energy Conversion and Storage $\cdot$
+Power Electronics $\cdot$
+Semiconductor Manufacturing - Bring-up (Spring 2025) $\cdot$
+Semiconductor Manufacturing - Tape-out (Fall 2025)}
+\end{minipage}
+ 
+\end{document}

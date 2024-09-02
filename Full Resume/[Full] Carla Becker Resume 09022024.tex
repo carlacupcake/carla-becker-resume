@@ -1,0 +1,353 @@
+%------------------------------------------------------------------------------------------------------------------------%
+% Resume in Latex
+% Original Author: Shubhi Rani, MIT
+% Edited by: Carla Becker
+%------------------------------------------------------------------------------------------------------------------------%
+\documentclass[letterpaper,10.8pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\urlstyle{rm}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% FORMATTING
+%------------------------------------------------------------------------------------------------------------------------%
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+ \hypersetup{colorlinks=true, linkcolor=blue, filecolor=blue, citecolor = black, urlcolor=cyan}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.475in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%------------------------------------------------------------------------------------------------------------------------%
+% CUSTOM COMMANDS
+%------------------------------------------------------------------------------------------------------------------------%
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{:#2\vspace{-2pt}}}}
+\newcommand{\resumeItemNoTitle}[2]{\item\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeSubItemNoTitleNoBullet}[2]{\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeItemWithoutTitle}[1]{\item\small{{\vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\  \end{tabular*}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemNoTitle}[2]{\resumeItemNoTitle{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+%------------------------------------------------------------------------------------------------------------------------%
+% HEADING
+%------------------------------------------------------------------------------------------------------------------------%
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\LARGE Carla J. Becker}} & Full resume available at: \includegraphics[width=1cm]{resume-QR-code.png} \end{tabular*} \\
+Linkedin: \href{https://www.linkedin.com/in/carla-becker}{www.linkedin.com/in/carla-becker}, Email: \href{mailto:carlabecker@berkeley.edu}{carlabecker@berkeley.edu}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% SKILLS AND PROFICIENCIES
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Skills \& Proficiencies}\small{
+{Program management, early-stage project ramping, product engineering, process development} |
+{Machine-learning, optimization, numerical methods, controls engineering} |
+{Bring-up, operation, and maintenance of manufacturing machinery, analytical instrumentation, and electronic equipment} |
+{Python, MATLAB, C, LaTeX, Javascript, Unix, Bash}}
+%{SEM/FIB, XRD, EDX, XPS, TGA, PSA, pycnometry, FTIR, UV-Vis, GC-MS, AFM}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% EDUCATION
+%------------------------------------------------------------------------------------------------------------------------%
+\vspace{4pt}
+\noindent
+\section{Education}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}[leftmargin=*]
+{\vspace{-2pt}\item \textbf{University of California Berkeley}} \\
+\textit{\small Ph.D., Mechanical Engineering; Expected: May 2026} \\ 
+\textit{\small M.S., Mechanical Engineering; Expected: Dec. 2024} \\ 
+\textit{\small M.S., Materials Science \& Engineering; Earned: May 2022}
+\end{itemize}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\begin{itemize}[leftmargin=*]
+{\vspace{-2pt}\item \textbf{Harvey Mudd College}} \\
+\textit{\small B.S. Physics; Earned: May 2018} \\
+\textit{\small B.S. Chemistry; Earned: May 2018}
+\end{itemize}
+\end{minipage}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% EXPERIENCE
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Research \& Industry Experience}
+
+\resumeSubHeadingListStart
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sakuu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeSubheading
+{Senior Product Engineer}{San Jose, CA}
+{Sakuu Corporation}{May 2018 - May 2022}
+
+\resumeItemListStart
+%----- Program Management -----%
+{\vspace{-2pt}\item\small{\textbf{Program Management}\vspace{-2pt}}}
+\begin{description}[font=$\bullet$]
+\item{Single-handedly managed, envisioned, and guided development of a browser-based integrated data management, machine learning, and advanced battery analytics system. Project had a \$300,000 budget and lasted 1.5 years.}
+\item{Drafted statements of work and consulting agreements. Developed all company safety procedures and SOPs.}
+\end{description}  
+
+%----- Product Engineering -----%
+{\vspace{-2pt}\item\small{\textbf{Product Engineering}\vspace{-2pt}}}
+\begin{description}[font=$\bullet$]
+\item{Experience with powder milling, coin/pouch cell assembly, tape casting, slurry preparation, battery assembly and test, and powder bed 3D printing.}
+\item{Design of experiment, process development, contract manufacturing.}
+\item{Point-of-contact for fixing/repairing malfunctioning analytical instrumentation.}
+\end{description} 
+
+%----- People Management -----%
+{\vspace{-2pt}\item\small{\textbf{People Management}\vspace{-2pt}}} 
+\begin{description}[font=$\bullet$]
+\item{Daily managed a 10-person team of technicians and associate engineers on the R\&D lab floor.}
+\item{Managed 4 different interns to complete their own independent projects.}
+\end{description}
+
+%----- Early-stage Project Ramping -----%
+{\vspace{-2pt}\item\small{\textbf{Early-stage Project Ramping}\vspace{-2pt}}}
+\begin{description}[font=$\bullet$]
+\item{3rd engineer hired at startup developing novel solid-state battery chemistry manufactured via 3D printing.}
+\item{Developed strategy to grow a battery modeling and simulation business unit. Interviewed potential candidates and evaluated commercial finite element software. Defined 5-year scope, objectives, and success metrics.}
+\item{Managed a team of 6 and collaborated with executive staff to scope and develop another ground-breaking use of Sakuu's multi-material 3D printing technology. Resulted in an entirely new business unit -- the biotechnology business unit.}
+\item{Onboarded and trained all non-executive, technical staff on techniques, procedures, machinery, instrumentation, and theory until the startup headcount reached 50.} 
+\end{description}
+
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Intel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeSubheading
+{Business Operations Management Intern}{Santa Clara, CA}
+{Intel Corporation}{June 2022 - May 2023}
+
+\resumeItemListStart
+\item\small{Streamlined hiring and finance operations within the Developer Software Engineering group by automating \\
+1) headcount reporting, 2) tracking of organization wide OKRs from JIRA data, and 3) generation of new job requisitions using Python Selenium, the PowerBI Javascript API, and Microsoft Power Automate.}
+\resumeItemListEnd
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PhD Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeSubheading
+{Graduate Student Researcher, Multiphysics Simulation and Optimization Lab}{Berkeley, CA}
+{University of California Berkeley}{May 2022 - Present}
+
+\resumeItemListStart
+
+%----- Materials Project -----%
+\resumeItemNoTitle{Browser App for Composites Discovery, \href{https://next-gen.materialsproject.org/}{The Materials Project}}{}
+\begin{description}[font=$\bullet$]
+\item{Built an app to recommend composite material components based on user-defined properties for an ultimate material. Will appear on the Materials Project (MP) website by the end of 2024. Public GitHub repo \href{https://github.com/carlacupcake/hashin_shtrikman_mp}{here}.}
+\item{Developed an object-oriented framework in Python which uses, and will be integrated into, the MP API. Worked to access material property data across several MP databases.} 
+\item{Tested a suite of optimization techniques and used Hashin-Shtrikman bounds for material property mixtures.}
+\end{description}  
+
+%----- CE 295 OPF -----%
+\resumeItemNoTitle{Comparison of Model Predictive Control and Robust Optimization for the Optimal Power Flow Problem}{}
+\begin{description}[font=$\bullet$]
+\item{Modeled power flow in adapted IEEE 39-bus test system with wind, solar, battery storage, and diesel generation over a time horizon with the goal of minimizing the total amount of diesel used over the time horizon}
+\item{Used real-world generation and consumption data. Public GitHub repo \href{https://github.com/carlacupcake/CE295-OPF}{here}.} 
+\end{description}  
+
+%----- AIFS -----%
+\resumeItemNoTitle{Fellow at the AI Institute for Next-Generation Food Systems, \href{https://aifs.ucdavis.edu/}{AIFS}}{}
+\begin{description}[font=$\bullet$]
+\item{Developed a ray tracing solver to construct a digital replica of an indoor farm with plants illuminated by LEDs. Utilized a genetic algorithm to optimize model parameters for maximum light absorption. Resulted in \href{https://doi.org/10.1007/s00466-023-02421-9}{publication}. Public GitHub repo \href{https://github.com/emremengi/INDOOR_FARMING_PAPER}{here}.}
+\item{Developed an extensible coupled, nonlinear ODE modeling for growth of a general crop. Public GitHub repo \href{https://github.com/carlacupcake/smartfarm}{here}.}
+\end{description} 
+
+%----- DEWA -----%
+\resumeItemNoTitle{Head Student Staff Assistant, \href{https://engineering.berkeley.edu/news/2019/05/dubai-electricity-and-water-authority-partnership-advances-future-energy-educational-program/}{Dubai Electricity and Water Authority}}{}
+\begin{description}[font=$\bullet$]
+\item{Administered the engineering certificate program for students at the Dubai Electricity and Water Authority (DEWA) through the UC Berkeley Extension. Organized student enrollment, grading, forums, Google Drive resources, and was the program website webmaster.}
+\item{Managed many stakeholders: the program manager and program director from DEWA, the UC Berkeley registrar, staff from the UC Berkeley Extension office, professors, and teaching assistants.}  
+\end{description}  
+
+%----- GSI ME C201 -----%
+\resumeItemNoTitle{Graduate Student Instructor, Modeling and Simulation of Advanced Manufacturing Processes}{}
+\begin{description}[font=$\bullet$]
+\item{Adapted all class assignments from report-based to short answer and provided previously unwritten starter code to students in both Python and MATLAB.}
+\item{Lectured once per week on topics including continuum mechanics, basic thermodynamics, multiphysics modeling, and the finite-difference time-domain method.}  
+\item{Wrote the final exam and solutions to all assignments and the final exam.}
+\item{Awarded Outstanding Graduate Student Instructor 2024.}
+\end{description} 
+
+\resumeItemListEnd
+        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fung Institute
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeSubheading
+{Staff Member, Fung Institute for Engineering Leadership}{Berkeley, CA}
+{University of California Berkeley}{January 2023 - Present}
+
+\resumeItemListStart
+
+%----- Capstone Connect -----%
+\resumeItemNoTitle{Backend Software Development, Capstone Connect}{}
+\begin{description}[font=$\bullet$]
+\item{Automated matching based on mutual ranking between industry sponsors and Masters of Engineering students, who must complete a capstone project to graduate.}
+\item{Produced a Capstone Project ``marketplace" consisting of Google Drive hubs with project information and automated email communications for major capstone matching milestones.}
+\item{Matched 422 students to 158 projects. All work done in Google AppScript (Javascript).}
+\end{description} 
+
+%----- TA E295 -----% 
+\resumeItemNoTitle{Teaching Assistant, Communications for Engineering Leaders}{}
+\begin{description}[font=$\bullet$]
+\item{Taught students how to effectively communicate technical information through written reports, presentations, posters, and elevator pitches.} 
+\item{Coached students on their presentation style, interviewing strategies, and story-telling skills.}
+\item{Developed relationships with $>$100 students and tracked their individual pain points and progress in the class, giving individualized feedback in every class.}
+\end{description}  
+
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Harvey Mudd 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeSubheading
+{Undergraduate Researcher}{Claremont, CA}
+{Harvey Mudd College}{May 2015 - May 2018}
+
+\resumeItemListStart
+
+%----- Spencer Lab -----%
+\resumeItemNoTitle{Electrical Engineering Researcher}{}
+\begin{description}[font=$\bullet$]
+\item{Developed a continuous, scalable model from the principles of statistical mechanics to simulate emerging memory type Phase Change Memory.}
+\item{Built a simulation framework to test density limits of 1-diode-1-resistor cross-point phase change memories.}
+\item{Modeling in Verilog-A; circuit-level simulation in HSPICE; scripting in MATLAB, Python, and Bash.}
+\item{Toward completion of a senior thesis.}
+\end{description} 
+
+%----- Duim Lab -----%
+\resumeItemNoTitle{Physical Chemistry Researcher}{}
+\begin{description}[font=$\bullet$]
+\item{Performed {\it in situ} single-molecule super-resolution fluorescence microscopy to model the aggregation of the mis-folded protein involved in Huntington's disease.}
+\item{Helped build the fluorescence microscope and performed all of the associated molecular biology e.g. protein purification, fluorophore tagging, SDS-PAGE, genetic manipulation of E. coli with plasmids, among others.}
+\item{Image processing in MATLAB and ImageJ.}
+\end{description} 
+
+%----- Stoebel Lab -----%
+\resumeItemNoTitle{Molecular Biology Researcher}{}
+\begin{description}[font=$\bullet$]
+\item{Investigated transcriptional regulation related to the stress response in {\it E. coli} via bioinformatic methods and standard molecular and micro-biological techniques. Studied the relationship between transcription factors that bind to a target promoter and the transcriptional response of the downstream genes.}
+\item{Differential motif analysis in Python and R, RNA-seq, miniprep, gel electrophoresis, primer design and PCR, DNA purification, cell culture.}
+\end{description} 
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% PATENTS
+%------------------------------------------------------------------------------------------------------------------------%
+%\section{Patents}
+%\resumeSubHeadingListStart
+%\resumeSubItemNoTitle{}{\textbf{M. Sedky} and M. Serry, ?High efficiency 3D printed electromagnetic micropump with a synchronous active valve,? 2022, United States Patent Filed Non-Provisional Application No.18/234527.}
+%\resumeSubItemNoTitle{}{\textbf{M. Sedky}, A. Ali, M. Abdel-Mottaleb, and M. Serry, ?Microneedle integrated 3D printed micropump combined with polymeric nanoparticles for rapid release
+%transdermal drug delivery,? 2023, United States Patent Filed Provisional Application No. 63/596345.}
+%\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% PUBLICATIONS
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItemNoTitle{}{E. Mengi, \textbf{C. J. Becker}, M. Sedky, S. Yu, and T. Zohdi, ``A digital-twin and rapid optimization framework for optical design of indoor farming systems." Computational Mechanics, 2023, \url{https://doi.org/10.1007/s00466-023-02421-9}.}
+\resumeSubItemNoTitle{}{G. T. Wong and R.P. Bonocora, A. N.Schep and S. M. Beeler and L. Fong, L. M. Shull, L.E. Batachari and M. Dillon and C. Evans and \textbf{C.J. Becker}, and others, ``Genome-wide transcriptional response to varying RpoS levels in Escherichia coli K-12." Journal of Bacteriology, 2017, \url{https://doi.org/10.1128/jb.00755-16}.}
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% RELEVANT COURSEWORK
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Relevant \& Planned Graduate Coursework}
+\small{
+Finite Element Method $\cdot$ 
+Numerical Solutions of ODEs/PDEs $\cdot$ 
+%Modeling and Simulation of Advanced Manufacturing Processes $\cdot$ 
+Continuum Mechanics $\cdot$ 
+%Electromagnetic Theory $\cdot$
+%Classical Control  $\cdot$
+State Estimation and Kalman Filtering  $\cdot$
+Model Predictive Control  $\cdot$
+Data Science for Energy $\cdot$
+%Data-Driven Control $\cdot$
+Failure of Structural Materials $\cdot$
+Materials Science of Energy Conversion and Storage $\cdot$
+Statistical Mechanics and Phase Transformations $\cdot$
+Power Electronics $\cdot$
+Semiconductor Manufacturing - Bring-up (Spring 2025) $\cdot$
+Semiconductor Manufacturing - Tape-out (Fall 2025)
+}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% CONFERENCE
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Conferences}
+\resumeSubHeadingListStart  
+\resumeItemNoTitle{``\textit{A Digital-Twin and Rapid Optimization Framework for Optical Design of Indoor Farming Systems}," }{poster presentation at the \textbf{AI Institute for Next Generation Food Systems Annual Review}, \textit{University of California Davis, Davis, CA, USA, 2023.}}
+\resumeItemNoTitle{``\textit{A Coupled, Nonlinear ODE Model for Growth of a General Crop, Dependent on Irrigation and Fertilizer Strategy}," }{poster presentation at the \textbf{AI Institute for Next Generation Food Systems Annual Review}, \textit{University of California Davis, Davis, CA, USA, 2024.}}
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% HONORS AND AWARDS
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Honors \& Awards}
+\resumeSubHeadingListStart
+\resumeItemNoTitle{}{Outstanding Graduate Student Instructor (2024).} 
+\resumeItemNoTitle{}{Recipient of the UC Berkeley Mechanical Engineering Fellowship (2023).}
+\resumeItemNoTitle{}{Honorable mention, COMAP Mathematical Contest in Modeling for ``Multi-hop High Frequency Radio Propagation" (2018).}
+\resumeItemNoTitle{}{Alabama Alumnus of the Year, Future City Competition (2016).}
+\resumeItemNoTitle{}{Bausch and Lomb Honorary science Award (2014).}
+\resumeItemNoTitle{}{Wernher von Braun Award for Academic Excellence and Integrity (2014).}
+\resumeItemNoTitle{}{1st Place, Aviation and Missile Research, Development, and Engineering Center Student Technical Paper Competition (won twice, 2012 and 2013).}
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% NOTABLE PERSONAL PROJECTS
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Notable Personal Projects}
+\resumeSubHeadingListStart  
+\resumeItemNoTitle{}{Qualcomm EmpoHERment Hackathon -- responsible for arduino hardware in final product.}
+\resumeItemNoTitle{}{MuddHacks Hackathon -- built a Ruben's tube.}
+\resumeItemNoTitle{}{Built an Excel Power Query tool for curating one's own X-ray database from JSON files from Materials Project, eliminating the need for a JCPDS card.}
+\resumeItemNoTitle{}{Built a dual-slope analog-to-digital converter.}
+\resumeItemNoTitle{}{Fabricated transmission-type holographs by designing and implementing a custom laser table setup.}
+\resumeSubHeadingListEnd
+ 
+\end{document}
