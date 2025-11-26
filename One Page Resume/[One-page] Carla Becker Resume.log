@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.31)  26 SEP 2025 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.31)  25 NOV 2025 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -258,7 +258,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [10.8pt].
 
-No file "[One-page] Carla Becker Resume".aux.
+(./[One-page] Carla Becker Resume.aux)
 \openout1 = `"[One-page] Carla Becker Resume.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -279,6 +279,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
+
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count266
@@ -318,6 +319,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
 LaTeX Info: Redefining \nameref on input line 60.
+ (./[One-page] Carla Becker Resume.out)
+(./[One-page] Carla Becker Resume.out)
 \@outlinefile=\write3
 \openout3 = `"[One-page] Carla Becker Resume.out"'.
 
@@ -327,10 +330,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 64.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 64
 .
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<resume-QR-code.png, id=4, 1053.9375pt x 1053.9375pt>
+<resume-QR-code.png, id=20, 1053.9375pt x 1053.9375pt>
 File: resume-QR-code.png Graphic file (type png)
 <use resume-QR-code.png>
 Package pdftex.def Info: resume-QR-code.png  used on input line 65.
@@ -349,22 +353,15 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./resum
 e-QR-code.png>] (./[One-page] Carla Becker Resume.aux)
-
-Package rerunfilecheck Warning: File `"[One-page] Carla Becker Resume".out' has
- changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"[One-page] Carla Becker Resume".ou
-t':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3FCDA35D7E05D2BA11F6F614C5B9B5E4;703.
+Package rerunfilecheck Info: File `"[One-page] Carla Becker Resume".out' has no
+t changed.
+(rerunfilecheck)             Checksum: 3FCDA35D7E05D2BA11F6F614C5B9B5E4;703.
  ) 
 Here is how much of TeX's memory you used:
- 9061 strings out of 478994
- 133588 string characters out of 5858184
- 454035 words of memory out of 5000000
- 26430 multiletter control sequences out of 15000+600000
+ 9072 strings out of 478994
+ 133844 string characters out of 5858184
+ 454307 words of memory out of 5000000
+ 26435 multiletter control sequences out of 15000+600000
  408291 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,74p,706b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -377,10 +374,10 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on "[One-page] Carla Becker Resume.pdf" (1 page, 129901 bytes).
+Output written on "[One-page] Carla Becker Resume.pdf" (1 page, 130522 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
