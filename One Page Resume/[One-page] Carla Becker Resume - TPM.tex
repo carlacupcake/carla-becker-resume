@@ -1,0 +1,232 @@
+%------------------------------------------------------------------------------------------------------------------------%
+% Resume in Latex
+% Original Author: Shubhi Rani, MIT
+% Edited by: Carla Becker
+%------------------------------------------------------------------------------------------------------------------------%
+\documentclass[letterpaper,10.8pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\urlstyle{rm}
+
+% Remove invisible Unicode troublemakers
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{00AD}{}
+\DeclareUnicodeCharacter{200B}{}
+\DeclareUnicodeCharacter{200C}{}
+\DeclareUnicodeCharacter{200D}{}
+\DeclareUnicodeCharacter{FEFF}{}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% FORMATTING
+%------------------------------------------------------------------------------------------------------------------------%
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+ \hypersetup{colorlinks=true, linkcolor=blue, filecolor=blue, citecolor = black, urlcolor=cyan}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.475in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%------------------------------------------------------------------------------------------------------------------------%
+% CUSTOM COMMANDS
+%------------------------------------------------------------------------------------------------------------------------%
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{:#2\vspace{-2pt}}}}
+\newcommand{\resumeItemNoTitle}[2]{\item\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeSubItemNoTitleNoBullet}[2]{\small{\textbf{#1}{ #2 \vspace{-2pt}}}}
+\newcommand{\resumeItemWithoutTitle}[1]{\item\small{{\vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\  \end{tabular*}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemNoTitle}[2]{\resumeItemNoTitle{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+%------------------------------------------------------------------------------------------------------------------------%
+% HEADING
+%------------------------------------------------------------------------------------------------------------------------%
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\LARGE Carla Becker}} & \end{tabular*} \\
+\vspace{1mm}
+%Linkedin: \href{https://www.linkedin.com/in/carla-becker}{linkedin.com/in/carla-becker}, Email: \href{mailto:carla.joy.becker@gmail.com}{carla.joy.becker@gmail.com}, GitHub: \href{https://github.com/carlacupcake}{github.com/carlacupcake}
+
+\vspace{-5mm}
+\begin{minipage}[t]{0.62\textwidth}
+%------------------------------------------------------------------------------------------------------------------------%
+% PROGRAM & TECHNICAL LEADERSHIP
+%------------------------------------------------------------------------------------------------------------------------%
+\vspace{4pt}
+\noindent
+\section{Program \& Technical Leadership}
+\resumeSubHeadingListStart
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Program & Execution
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{2pt}\item \textbf{Program \& Execution}} \\
+{\small Technical program management, roadmap definition, early-stage project ramp-up; Cross-functional coordination across ML, software, hardware, and operations; Vendor management, SOWs, budgeting, and delivery against milestones.}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AI/ML & Systems
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-2pt}\item \textbf{AI/ML \& Systems}} \\
+{\small Machine learning model evaluation and lifecycle management; experimentation pipelines, data quality, and deployment tradeoffs under compute and latency constraints; Simulation-ML hybrid systems (physics-based + learned models).}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Technical Stack
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-2pt}\item \textbf{Technical Stack}} \\
+{\small Python, basic SQL and C++, Flask, Snowflake, Docker/Kubernetes, Unix/Bash; Data visualization, internal tooling, automation, and web apps.}
+
+\resumeSubHeadingListEnd
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.35\textwidth}
+%------------------------------------------------------------------------------------------------------------------------%
+% CONTACT
+%------------------------------------------------------------------------------------------------------------------------%
+\vspace{4pt}
+\noindent
+\section{Contact}
+
+{\small Linkedin: \href{https://www.linkedin.com/in/carla-becker}{linkedin.com/in/carla-becker}} \\ 
+{\small Email: \href{mailto:carla.joy.becker@gmail.com}{carla.joy.becker@gmail.com}} \\
+{\small GitHub: \href{https://github.com/carlacupcake}{github.com/carlacupcake}}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% EDUCATION
+%------------------------------------------------------------------------------------------------------------------------%
+\vspace{-2mm}
+\noindent
+\section{Education}
+
+\textbf{University of California Berkeley} \\
+{\small Ph.D., Mechanical Engineering;} \\ 
+{\small \textit{Expected: May 2026}} \\
+{\small M.S., Mechanical Engineering, 2024} \\
+{\small M.S., Materials Science \& Engineering, 2022}  
+
+\vspace{1mm}
+\textbf{Harvey Mudd College} \\
+{\small B.S. Physics, B.S. Chemistry, 2018}
+
+\end{minipage}
+
+%------------------------------------------------------------------------------------------------------------------------%
+% PROFESSIONAL EXPERIENCE
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apple Internship
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Technical Lead, Design for Manufacturing}, 
+{Apple Inc.} & 
+\textit{\small February 2025 - August 2025} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{Owned end-to-end development of an internal AI-enabled platform for component-level data ingestion, visualization, and live editing, used across DFM workflows.}
+\item\small{Coordinated ML modeling, backend infrastructure (Snowflake, Flask), deployment (Docker/K8s), and user feedback loops.}
+\item\small{Led evaluation of 18 ML approaches for solder joint crack severity prediction, framing tradeoffs between accuracy, interpretability, and compute cost. Supported rapid iteration and deployment.}
+\item\small{Proposed a novel hybrid FEA + neural-network approach to reduce system-level simulation time by orders of magnitude and road-mapped its development.}
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sakuu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Program Manager, Product Engineer}, 
+{Sakuu Corp.} & 
+\textit{\small May 2018 - June 2022} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{Led a \$300K, 1.5-year internal program to design and deploy a browser-based ML and analytics platform for battery development.}
+\item\small{Defined scope, success metrics, and 3-year roadmap for a new modeling \& simulation business unit.}
+\item\small{Owned vendor selection, SOWs, and stakeholder alignment across engineering, operations, and leadership.}
+\item\small{Managed a 10-person technical team and multiple interns, balancing delivery timelines with R\&D uncertainty.}
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Intel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Business Operations Management}, 
+{Intel Corporation} & 
+\textit{\small June 2022 - May 2023} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{Streamlined hiring and finance workflows for the large Developer Software Engineering org by automating headcount reporting, OKR tracking, and requisition generation.}
+\item\small{Reduced manual reporting overhead and improved leadership visibility using Python, PowerBI, and automation pipelines.}
+\resumeItemListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UC Berkeley
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Program Manager \& Technical Lead}, 
+{UC Berkeley} & 
+\textit{\small June 2022 - Present} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{\textbf{Program Manager, DEWA} Owned execution of an international engineering certificate program administered jointly by UC Berkeley and Dubai Electricity \& Water Authority (DEWA).}
+\item\small{Coordinated faculty, registrars, TAs, and DEWA leadership across time zones, managing schedules, enrollment, grading workflows, and escalations.}
+\item\small{\textbf{Technical Lead, Capstone Connect} Led design and delivery of an automated matching platform supporting hundreds of industry-sponsored MEng capstone projects.}
+\item\small{Translated multi-stakeholder requirements into ranking logic and system constraints, replacing manual workflows.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%------------------------------------------------------------------------------------------------------------------------%
+% RESEARCH EXPERIENCE
+%------------------------------------------------------------------------------------------------------------------------%
+\section{Research Experience}
+\resumeSubHeadingListStart
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GSR Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\vspace{-1pt}\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Graduate Student Researcher}, 
+{UC Berkeley} & 
+\textit{\small May 2021 - Present} 
+\end{tabular*}\vspace{-4pt}}
+
+\resumeItemListStart
+\item\small{Led development of ML-driven optimization and simulation tools across materials discovery (\href{https://next-gen.materialsproject.org/}{(The Materials Project}) and agricultural systems (\href{https://aifs.ucdavis.edu/}{AI Institute for Next-Gen Food Systems}), spanning ODE models, ray tracing, and scalable experimentation pipelines.}
+\item\small{Experience translating research prototypes into usable internal tools and platforms (APIs, AWS, testing, performance optimization in Python).}
+\item\small{Outstanding Graduate Student Instructor 2024, Modeling and Simulation of Advanced Manufacturing Systems.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
