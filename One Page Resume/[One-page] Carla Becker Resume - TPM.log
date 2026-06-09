@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.31)  17 DEC 2025 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.31)  10 FEB 2026 01:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,9 +356,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 73
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 156.
+(Font)              <9> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 156.
+(Font)              <6> on input line 155.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -376,11 +376,11 @@ has not changed.
 Here is how much of TeX's memory you used:
  9316 strings out of 478994
  136418 string characters out of 5858184
- 453199 words of memory out of 5000000
+ 452199 words of memory out of 5000000
  26666 multiletter control sequences out of 15000+600000
  412695 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,413b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,412b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -392,7 +392,7 @@ l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on "[One-page] Carla Becker Resume - TPM.pdf" (1 page, 145912 by
+Output written on "[One-page] Carla Becker Resume - TPM.pdf" (1 page, 145259 by
 tes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
